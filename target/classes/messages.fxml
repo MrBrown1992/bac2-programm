@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fh.bac.MessagesController">
+    <children>
+        <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" text="Back" />
+        <Button layoutX="527.0" layoutY="359.0" mnemonicParsing="false" text="Next" />
+        <Button fx:id="mbtn_ok" layoutX="202.0" layoutY="49.0" mnemonicParsing="false" onAction="#generateNewMessage" text="OK" />
+        <Label layoutX="27.0" layoutY="32.0" text="Messages" />
+        <TextField fx:id="mtxt_input" layoutX="27.0" layoutY="49.0" />
+        <ListView fx:id="mListview" layoutX="379.0" layoutY="25.0" prefHeight="325.0" prefWidth="200.0" />
+    </children>
+
+</AnchorPane>
