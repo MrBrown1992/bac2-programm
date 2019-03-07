@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/fh/bac/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fh/bac/MessagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/NewProcessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="-153">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#633#650#0" expanded="true" />
@@ -119,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/MessagesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+            <state relative-caret-position="1408">
+              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +133,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="461">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -192,12 +203,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/showContent.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/startController.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/NewProcessController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/ShowContentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/MessagesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java" />
       </list>
     </option>
   </component>
@@ -420,25 +431,25 @@
       <workItem from="1550584047340" duration="322000" />
       <workItem from="1550912546268" duration="11878000" />
       <workItem from="1551114319102" duration="2005000" />
-      <workItem from="1551190492744" duration="34545000" />
+      <workItem from="1551190492744" duration="36224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50052000" />
+    <option name="totallyTimeSpent" value="51731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1941392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1941392" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32834226" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,24 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/NewProcessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#633#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/ShowContentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -670,18 +663,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="106" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/NewProcessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#633#650#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/MessagesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        <state relative-caret-position="1408">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/fh/bac/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>

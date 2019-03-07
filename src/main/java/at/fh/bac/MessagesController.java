@@ -22,25 +22,29 @@ public class MessagesController {
     private String m = "message";
     private int i = 1;
     private Messages messages;
+    private SceneController sceneController = new SceneController();
+
 
     //HashSet<Messages> hashSetOfMessages = new HashSet<>();
     //HashMap<Integer, Messages> MapOfMessages = new HashMap<Integer, Messages>();
     ArrayList<Messages> ListOfMessages = new ArrayList<>();
-    ObservableList<String> items = FXCollections.observableArrayList();
+    ObservableList<Messages> items = FXCollections.observableArrayList();
 
-
+    @FXML
+    public void initialize(){
+        listViewUpdate();    }
     public void generateNewMessage(ActionEvent event) throws Exception {
 
         Messages xyz = new Messages(mtxt_input.getText(), m + i++);
         if (items.size() == 0) {
-            items.add(xyz.getName());
+            items.add(xyz);
             ListOfMessages.add(xyz);
             listViewUpdate();
             //System.out.println(ListofMessages.get(0).getName());
         } else {
 
             if (!items.contains(mtxt_input.getText())) {
-                items.add(xyz.getName());
+                items.add(xyz);
                 ListOfMessages.add(xyz);
 
                 listViewUpdate();
@@ -114,6 +118,13 @@ public class MessagesController {
     public void listViewUpdate() {
 
         mListview.setItems(items);
+
+    }
+
+    public void pressBackBtn(ActionEvent event) throws Exception {
+        sceneController.changeScene(event, "NewProcess.fxml");
+
+
 
     }
 }

@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fh.bac.MessagesController">
     <children>
-        <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" text="Back" />
+        <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" text="Back"  onAction="#pressBackBtn"/>
         <Button layoutX="527.0" layoutY="359.0" mnemonicParsing="false" text="Next" />
         <Button fx:id="mbtn_ok" layoutX="202.0" layoutY="49.0" mnemonicParsing="false" onAction="#generateNewMessage" text="OK" />
         <Label layoutX="27.0" layoutY="32.0" text="Messages" />
